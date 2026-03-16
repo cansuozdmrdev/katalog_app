@@ -1,17 +1,49 @@
 # katalog_app
 
-A new Flutter project.
+Flutter ile geliştirilmiş bir ürün katalog uygulaması.
 
-## Getting Started
+## Açıklama
+Bu proje bir **Mini Katalog Uygulaması**dır. Kullanıcılar uygulamayı açtığında ürünleri görebilir, ürün detayına geçebilir ve basit state güncellemelerini görebilir.
 
-This project is a starting point for a Flutter application.
+### Öne Çıkan Özellikler
+- Ana sayfa – ürün listesi  
+- Ürün detayı ekranı  
+- Sepet özelliği – ürünleri sepete ekleme ve yönetme  
+- Sayfa geçişleri (Navigator)  
+- Route Arguments kullanımı  
+- GridView ile kart tabanlı tasarım  
+- Basit state güncelleme örneği
 
-A few resources to get you started if this is your first Flutter project:
+## Kullanılan Flutter Sürümü
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash```
+Flutter 3.41.4 • channel stable
+Dart 3.11.1
+DevTools 2.54.1
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Çalıştırma Adımları
+
+# 1. Projeyi klonlayın
+git clone https://github.com/cansuozdmrdev/katalog_app.git
+
+# 2. Proje dizinine gidin
+cd katalog_app
+
+# 3. Paketleri yükleyin
+flutter pub get
+
+# 4. Uygulamayı çalıştırın
+flutter run
+
+Not: Uygulamayı çalıştırmak için bağlı bir cihaz veya emulator gereklidir.
+
+
+## Ekran Görüntüleri
+### Ana Sayfa
+![Ana Sayfa](assets/image/screenshots/home_screen.png)
+
+### Sepet
+![Sepet](assets/image/screenshots/card_screen.png)
+
+### Ürün Detayı
+![Ürün Detayı](assets/image/screenshots/product_detail_screen.png)
